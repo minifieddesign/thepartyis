@@ -1,0 +1,250 @@
+/* DEVICES
+@media (max-width: 575px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+*/
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+@media (max-width: 767px) {
+  body {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    margin-top: 11px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    margin-top: -50px;
+  }
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 120px;
+  line-height: 50px; /* Vertically center the text there */
+  background-color: rgba(253,239,227,.35);
+  /* margin-top: 5px;  */
+}
+
+
+@media (max-height: 719px) {
+  .full {
+      display: none;
+      }
+  .abbr {
+      display: inline;
+  }
+}
+
+@media (min-height: 720px) {
+  .full {
+      display: inline;
+      }
+  .abbr {
+      display: none;
+  }
+}
+
+
+
+
+
+.nav-item,
+.nav-link{
+    color: #000000;
+    font-family: "europa",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .1em;
+    text-transform: none;
+    line-height: 150%;
+  }
+
+  @media (max-width: 767px) {
+    .nav-item,
+    .dropdown-item {
+      font-size: 13px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .nav-item,
+    .dropdown-item {
+      font-size: 13px;
+    }
+  }
+
+  .footer-nav .nav-link {
+    color: #000;
+    opacity: .5;
+  }
+  .footer-nav .nav-link:hover {
+    color: #000;
+    opacity: 1;
+  }
+
+
+  .nav-item.active {
+        font-family: "europa",sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        text-decoration: none;
+        color: #800300;
+        opacity: 1;
+        /* padding-bottom: 2px; */
+
+        /* background-color:  rgba(244, 219, 213, .5); */
+        /* outline-offset: -10px; */
+        /* padding-x: 1px; */
+        /* padding-bottom: 4px; */
+
+        /* background-color: rgba(244, 219, 213, .5); */
+        /* border-bottom: 10px solid rgba(244, 219, 213, .5); */
+  }
+
+.nav-link:hover {
+        font-family: "europa",sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        text-decoration: none;
+        opacity: 1;
+        color:#800300 !important;
+        border-bottom: 2px solid #800300;
+        padding-bottom: 4px;
+        font-style: italic;
+  }
+
+
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+/* navbar-toggler
+-------------------------------------------------- */
+.custom-toggler {
+  border: none;
+}
+
+
+
+.menu-button {
+    text-align: right;
+    color: #000;
+    font-family: "europa",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .25em;
+    /* padding: .55em 1.2em .55em 1.5em; */
+    /* border: 2px solid black; */
+    text-transform: uppercase;
+  }
+
+  .menu-button:hover {
+    text-decoration:none;
+  }
+
+
+
+  @media (max-width: 767px) {
+    .menu-button{
+      font-size: 13px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .menu-button{
+      font-size: 13px;
+    }
+  }
+
+  .menu-button:hover {
+    color:#800300;
+    border-bottom: 2px solid #800300;
+    padding-bottom: 4px;
+    font-style: italic;
+    text-decoration: none;
+  }
+
+
+/* dropdown
+-------------------------------------------------- */
+.dropdown-menu.dropdown-container.show {
+  border: none!important;
+}
+
+a.dropdown-item:hover {
+  background-color: transparent !important;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom: 3px solid black;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border: none;
+  }
+
+  .dropdown-item {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 17px;
+  }
+}
+
+
+
+
+/* pagenav
+-------------------------------------------------- */
+
+.pagenav {
+  position: fixed;
+  top: 50px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.pagenav .nav-item-custom .nav-link {
+  color: black !important;
+}
