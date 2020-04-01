@@ -647,12 +647,28 @@ p {
 
 .rsvpform .btn-outline-primary:hover,
 .rsvpform .btn-outline-primary:active,
+.rsvpform .btn-outline-primary:focus,
 .dinnerform .btn-outline-primary:hover,
-.dinnerform .btn-outline-primary:active  {
+.dinnerform .btn-outline-primary:active, 
+.dinnerform .btn-outline-primary:focus, 
+.btn-outline-primary:hover,
+.btn-outline-primary:active, 
+.btn-outline-primary:focus, 
+input.btn.btn-outline-primary:hover, 
+input.btn.btn-outline-primary:active, 
+input.btn.btn-outline-primary:focus {
   color: white;
-  border: 2px solid #800300;
-  background-color: #800300;
+  border: 2px solid #800300!important;
+  background-color: #800300!important;
+  outline: none !important;
 }
+
+button, 
+.btn {
+  outline: none !important;
+  box-shadow: none!important;
+
+ }
 
 
 
