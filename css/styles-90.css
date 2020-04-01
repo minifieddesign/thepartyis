@@ -60,11 +60,11 @@
   margin-left: 0px;
 }
 
-.full-width {
+/* .full-width { */
   /* width: 100%;
   height: auto;
   margin: 0; */
-}
+/* } */
 
 .bg {
   width: 100%;
@@ -227,9 +227,9 @@
 
 
 /* figures */
-.figure {
+/* .figure { */
   /* margin-bottom: 30px; */
-}
+/* } */
 .figure-caption,
 .figure-caption a {
   color: #a2a7aa;
@@ -274,17 +274,17 @@ button, .btn, .btn a {
 }
 
 /* remove default blue outline on selected states */
-button,
+/* button,
 button:active,
 button:focus,
 button:hover,
 .btn,
 .btn:active,
 .btn:focus,
-.btn:hover{
+.btn:hover{ */
     /* outline: !important; */
     /* box-shadow: none !important; */
-}
+/* } */
 
 
 /* action-button */
@@ -581,7 +581,7 @@ p {
 .faq-question {
   font-weight: 700;
   margin-top: 35px;
-  font-size: 17px; ``
+  font-size: 17px; 
 }
 /* fancy */
 .r90-neg {
@@ -647,12 +647,31 @@ p {
 
 .rsvpform .btn-outline-primary:hover,
 .rsvpform .btn-outline-primary:active,
+.rsvpform .btn-outline-primary:focus,
 .dinnerform .btn-outline-primary:hover,
-.dinnerform .btn-outline-primary:active  {
+.dinnerform .btn-outline-primary:active, 
+.dinnerform .btn-outline-primary:focus, 
+.dinnermenu .btn-outline-primary:hover,
+.dinnermenu .btn-outline-primary:active, 
+.dinnermenu .btn-outline-primary:focus, 
+.btn-outline-primary:hover,
+.btn-outline-primary:active, 
+.btn-outline-primary:focus, 
+input.btn.btn-outline-primary:hover, 
+input.btn.btn-outline-primary:active, 
+input.btn.btn-outline-primary:focus {
   color: white;
-  border: 2px solid #800300;
-  background-color: #800300;
+  border: 2px solid #800300!important;
+  background-color: #800300!important;
+  outline: none !important;
 }
+
+button, 
+.btn {
+  outline: none !important;
+  box-shadow: none!important;
+
+ }
 
 
 
@@ -781,7 +800,7 @@ p {
   font-weight: 700;
   letter-spacing: .05em;
   margin-top: 0;
-  font-size:
+  /* font-size: ; */
 }
 
 
